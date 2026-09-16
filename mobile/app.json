@@ -34,6 +34,12 @@
     ],
     "plugins": [
       "expo-status-bar"
-    ]
+    ],
+    "owner": "isco5151s-team",
+    "extra": {
+      "eas": {
+        "projectId": "5784479a-7be9-49f5-a29b-a025841daec6"
+      }
+    }
   }
 }
