@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "دبّرني",
+    "slug": "dabbirni",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070A12"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.dabbirni.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "يستخدم التطبيق الكاميرا لمسح الفواتير وتحليل قرارات الشراء الذكية.",
+        "NSMicrophoneUsageDescription": "يستخدم التطبيق الميكروفون لتسجيل المصاريف اليومية عبر الأوامر الصوتية السريعة.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#070A12"
+      },
+      "package": "com.dabbirni.app"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}

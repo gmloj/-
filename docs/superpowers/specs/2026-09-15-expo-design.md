@@ -1,0 +1,4 @@
+# Expo preview design
+Preserve the supplied Arabic navy/cyan React interface in an offline bundled WebView. Keep the web app independently runnable. Native AsyncStorage persists the same validated state through a message bridge. The sample starting account is explicitly labeled as demo data. Expense additions decrease balance; removals restore it; a day rollover archives expenses and decreases relative due dates. Invoice scanning must never manufacture results: use manual confirmed receipt entry for the offline preview, and return explicit unavailable errors from unconfigured server AI routes. No API secrets in native bundles.
+
+Deliver an Expo project under mobile, build scripts that regenerate the bundled UI, EAS preview configuration, and the full source in the user's existing repository. Verify web flows, state logic, type checks, and native bundle generation. Expo account linkage requires authenticated access and must not be claimed until confirmed.

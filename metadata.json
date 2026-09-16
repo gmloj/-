@@ -1,0 +1,7 @@
+{
+  "name": "دبّرني",
+  "description": "رفيق قراراتك المالية واليومية الذكي — يجيبك على سؤال واحد: وش أفضل قرار أسويه الآن؟",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

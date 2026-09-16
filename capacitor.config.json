@@ -1,0 +1,9 @@
+{
+  "appId": "com.dabbirni.app",
+  "appName": "دبّرني",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

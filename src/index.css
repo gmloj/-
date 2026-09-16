@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Tajawal', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #070a12;
+    color: #f1f5f9;
+  }
+
+  /* Calm sleek dark scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #070a12;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+  }
+}
+
+
+.mobile-app { padding-bottom:0; }
+.mobile-app main { padding:0; justify-content:flex-start; }
+.mobile-app main > div { min-height:calc(100dvh - 26px); }
+.mobile-app main .min-h-\[640px\] { min-height:calc(100dvh - 26px); border-radius:0; border:0; }
+input,select,textarea { font-size:16px !important; }
+button:disabled { opacity:.5; cursor:default; }
